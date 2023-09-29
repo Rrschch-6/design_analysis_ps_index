@@ -1,0 +1,6 @@
+pandas
+streamlit
+matplotlib
+seaborn
+openai
+docx2txt
