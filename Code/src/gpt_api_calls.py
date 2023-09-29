@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 def get_gpt_response(description,text,model_id):
-  openai.api_key = "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"
+  openai.api_key = None
   response = openai.ChatCompletion.create(
     model=model_id,
     messages=[
