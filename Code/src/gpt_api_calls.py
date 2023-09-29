@@ -27,7 +27,7 @@ def get_gpt_response(description,text,model_id):
   return response.choices[0].message["content"]
 
 def inference_main(description,text,model_id):
-    openai.api_key = "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"
+    openai.api_key = ""
     df=pd.DataFrame()
     df['quarter']=0
     
